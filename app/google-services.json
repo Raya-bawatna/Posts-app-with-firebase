@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "648242446178",
+    "project_id": "simpleblogapp-40971",
+    "storage_bucket": "simpleblogapp-40971.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648242446178:android:4c09ea5e9cec748abe763b",
+        "android_client_info": {
+          "package_name": "raya.cs.birzeit.simpleblogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648242446178-d5bke7270r3j32bsnvn5e1k8e605cl04.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "raya.cs.birzeit.simpleblogapp",
+            "certificate_hash": "1ebbcb5c6177360da3acd66350a56e4407e146a8"
+          }
+        },
+        {
+          "client_id": "648242446178-0ndkkckhs0f6metj0g0h146ptkn5qt2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBiL8bhkS3qotPeNk1yuFtwvVjFM8E9sA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648242446178-0ndkkckhs0f6metj0g0h146ptkn5qt2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

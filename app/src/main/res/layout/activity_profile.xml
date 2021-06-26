@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".Profile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:background="@color/darkgreen" />
+
+    <!--Top Header Layout-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="522dp"
+
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:paddingLeft="9dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="13dp"
+                app:cardElevation="6dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="479dp"
+                    android:layout_height="185dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_marginTop="10dp"
+                        android:paddingTop="15dp"
+                        android:id="@+id/setupImageButton"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:clickable="true"
+                        app:civ_border_color="@color/Green"
+                        app:civ_border_width="0.5dp"
+
+                        android:scaleType="centerCrop"
+                       android:src="@mipmap/ic_person_black_24dp"
+                        app:srcCompat="@mipmap/ic_person_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/username_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_horizontal"
+                        android:text="User Name"
+                        android:textColor="@android:color/black"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/type_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="Type"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+<!--<ImageView-->
+<!--android:id="@+id/imageView"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="324dp"-->
+<!--android:src="@drawable/half_circle" />-->
